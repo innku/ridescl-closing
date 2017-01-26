@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+body{
+  background: #d8dfe7 url('../images/bag.png') repeat-y center;
+  background-size: 750px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+.container{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.blabla{
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.content{
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 60px;
+  width: 1000px;
+}
+
+.text{
+  clear: both;
+  background: #3e9cd4;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+  float: left;
+  padding: 20px 0 40px 40px;
+  position: relative;
+  top: 55px;
+  width: 65%;
+}
+
+.text h1{
+  color: #ffffff;
+  font-size: 2.1em;
+  font-weight: 300;
+  width: 80%;
+}
+
+.text a{
+  color: #ffffff;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.text a:hover{
+  color: #2d3a4b;
+  text-decoration: none;
+}
+
+.text img{
+  position: relative;
+  top: 3px;
+  width: 25px;
+}
+
+.foto{
+  float: right;
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
+.foto img{
+  box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+  width: 100%;
+}
+
+.conoce{
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+  text-align: center;
+  width: 100%;
+}
+
+.conoce a{
+  color: #ffffff;
+  background: #f53f5b;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+  font-size: 1.5em;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.conoce a:hover{
+  background: #d01e3a;
+  text-decoration: none;
+}
+
+.conoce img{
+  position: relative;
+  top: 3px;
+  width: 25px;
+}
+
+.conoce p{
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 20px auto 0 auto;
+  /*position: relative;
+  top: 280px;*/
+  text-align: left;
+  width: 600px;
+}
+
+.conoce .rides{
+  color: #3e9cd4;
+  background: transparent;
+  box-shadow: none;
+  font-size: 1em;
+  padding: 0;
+}
+
+.conoce .rides:hover{
+  color: #6db030;
+  background: transparent;
+  box-shadow: none;
+}
+
+#text{
+  /*-webkit-animation-duration: 3s;*/
+  -webkit-animation-delay: .4s;
+  /*-webkit-animation-iteration-count: infinite;*/
+}
+
+#pict{
+  -webkit-animation-delay: 1s;
+}
+
+#blog{
+  -webkit-animation-delay: 2s;
+}
+
+@media screen and (max-width: 992px){
+  .content{
+    width: 100%;
+  }
+
+  .blabla img{
+    width: 70%;
+  }
+
+  .text{
+    top: 0px;
+    width: 90%;
+  }
+  .text h1{
+    font-size: 1.5em;
+    width: 85%;
+  }
+
+  .foto{
+    position: relative;
+    right: 10px;
+    top: -50px;
+  }
+
+  .text a{
+    font-size: 1.1em;
+  }
+
+  .text img{
+    width: 20px;
+  }
+
+  .conoce{
+    top: 100px;
+  }
+
+  .conoce a{
+    font-size: 1.1em;
+  }
+
+  .conoce img{
+    width: 20px;
+  }
+
+  .conoce p{
+    width: 90%;
+    padding-bottom: 50px;
+  }
+
+}
