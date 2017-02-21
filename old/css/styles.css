@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
 body{
+  background: #d8dfe7 url('../images/bag.png') repeat-y center;
+  background-size: 750px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   margin: 0;
@@ -14,11 +16,10 @@ body{
 .blabla{
   clear: both;
   display: block;
-  right: 200px;
   margin: 0 auto;
   position: relative;
+  top: 30px;
   text-align: center;
-  top: 35px;
   width: 100%;
 }
 
@@ -27,7 +28,7 @@ body{
   display: block;
   margin: 0 auto;
   position: relative;
-  top: -10px;
+  top: 60px;
   width: 1000px;
 }
 
@@ -56,13 +57,14 @@ body{
 }
 
 .text a:hover{
-  color: #eee;
+  color: #2d3a4b;
   text-decoration: none;
 }
 
 .text img{
   position: relative;
-  width: 15px;
+  top: 3px;
+  width: 25px;
 }
 
 .foto{
@@ -80,9 +82,9 @@ body{
 .conoce{
   clear: both;
   display: block;
-  margin: 0 auto 25px;
+  margin: 0 auto;
   position: relative;
-  top: 150px;
+  top: 200px;
   text-align: center;
   width: 100%;
 }
@@ -107,10 +109,29 @@ body{
   width: 25px;
 }
 
-.conoce p {
-  margin: 35px auto 20px;
-  text-align: center;
-  width: 60%;
+.conoce p{
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 20px auto 0 auto;
+  /*position: relative;
+  top: 280px;*/
+  text-align: left;
+  width: 600px;
+}
+
+.conoce .rides{
+  color: #3e9cd4;
+  background: transparent;
+  box-shadow: none;
+  font-size: 1em;
+  padding: 0;
+}
+
+.conoce .rides:hover{
+  color: #6db030;
+  background: transparent;
+  box-shadow: none;
 }
 
 #text{
@@ -120,23 +141,16 @@ body{
 }
 
 #pict{
-  -webkit-animation-delay: 0.8s;
+  -webkit-animation-delay: 1s;
 }
 
 #blog{
-  -webkit-animation-delay: 1.1s;
+  -webkit-animation-delay: 2s;
 }
 
 @media screen and (max-width: 992px){
   .content{
     width: 100%;
-  }
-
-  .blabla {
-    left: 0px;
-    text-align: center;
-    top: 0px;
-    right: 0px;
   }
 
   .blabla img{
@@ -145,7 +159,7 @@ body{
 
   .text{
     top: 0px;
-    width: 100%;
+    width: 90%;
   }
   .text h1{
     font-size: 1.5em;
@@ -153,7 +167,9 @@ body{
   }
 
   .foto{
-    display: none;
+    position: relative;
+    right: 10px;
+    top: -50px;
   }
 
   .text a{
@@ -165,11 +181,20 @@ body{
   }
 
   .conoce{
-    top: 30px;
+    top: 100px;
   }
 
   .conoce a{
-    font-size: 1em;
+    font-size: 1.1em;
+  }
+
+  .conoce img{
+    width: 20px;
+  }
+
+  .conoce p{
+    width: 90%;
+    padding-bottom: 50px;
   }
 
 }
